@@ -8,11 +8,11 @@ def display():
     print("3. Exit")
 
 def add_customer():
-    name = input("Enter customer name: ")
-    balance = float(input("Enter initial account balance: "))
+    name = input("Enter Customer Name: ")
+    balance = float(input("Enter Initial Account Balance: "))
     customer = Customer(name, balance)
     banker.add_customer(customer)
-    print("Customer added successfully!")
+    print("Customer Added Successfully")
 
 def view_customers():
     print("All Customers:")
