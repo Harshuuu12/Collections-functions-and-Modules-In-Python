@@ -1,7 +1,7 @@
 from banker import Banker
 from customer import Customer
 
-def display_menu():
+def display():
     print("Bank Management System Menu:")
     print("1. Add Customer")
     print("2. View Customers")
@@ -20,7 +20,7 @@ def view_customers():
 
 def main():
     while True:
-        display_menu()
+        display()
         choice = input("Enter your choice: ")
 
         if choice == '1':
