@@ -28,7 +28,7 @@ def main():
         elif choice == '2':
             view_customers()
         elif choice == '3':
-            print("Exiting the program. Goodbye!")
+            print("Exiting the program ")
             break
         else:
             print("Invalid choice. Please try again.")
