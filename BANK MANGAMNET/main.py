@@ -1,8 +1,6 @@
 from banker import Banker
 from customer import Customer
 
-banker = Banker()
-
 def display_menu():
     print("Bank Management System Menu:")
     print("1. Add Customer")
